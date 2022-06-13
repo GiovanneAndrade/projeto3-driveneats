@@ -152,7 +152,7 @@ function openModal () {
   <div class="btn btn-modal">
     <button id="finishing">Tudo certo, pode pedir!</button>
   </div>
-  <a class="close" href="/"><h3>Cancelar</h3></a>
+  <a class="close" href="./index.html"><h3>Cancelar</h3></a>
 
   `
   const modalContainer = document.querySelector('.modal-container');
