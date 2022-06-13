@@ -114,7 +114,7 @@ span {
   border: 3px solid #32b72f;
 }
 
-.btn {
+.btn, .btn-modal {
   max-width: 400px;
   display: flex;
   justify-content: center;
@@ -123,6 +123,15 @@ span {
   position: fixed;
   bottom: 0;
   width: 100%;
+}
+.btn-modal{
+  position: static;
+}
+#finishing{
+  border-radius: 50px;
+  outline: none;
+  border: none;
+  max-width: 400px;
 }
 
 .btn button {
