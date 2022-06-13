@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+  <header class="header-bg">
+    <h1>DrivenEats</h1>
+    <span>Sua comida em 6 minutos</span>
+  </header>
+ <div class="principal">
+    <div class="carrosel-container">
+    <h2>Primeiro, seu prato</h2>
+    <div class="carrosel">
+      <div class="container">
+        <div class="img-container" data-carrosel="prato">
+          <img src="img1.png" alt="">
+          <h3>Frango Yin Yang</h3>
+          <p>Um pouco de batata, um pouco de salada</p>
+          <span>R$ 10,90</span>
+          <div class="icon">
+            <ion-icon name="checkmark-circle"></ion-icon>
+          </div>
+        </div>
+        <div class="img-container" data-carrosel="prato">
+          <img src="img1.png" alt="">
+          <h3>Carne Yin Yang</h3>
+          <p>Um pouco de batata, um pouco de salada</p>
+          <span>R$ 18,90</span>
+          <div class="icon">
+            <ion-icon name="checkmark-circle"></ion-icon>
+          </div>
+        </div>
+        <div class="img-container" data-carrosel="prato">
+          <img src="img1.png" alt="">
+          <h3>Camarão Yin Yang</h3>
+          <p>Um pouco de batata, um pouco de salada</p>
+          <span>R$ 24,90</span>
+          <div class="icon">
+            <ion-icon name="checkmark-circle"></ion-icon>
+          </div>
+        </div>
+        <div class="img-container" data-carrosel="prato">
+          <img src="img1.png" alt="">
+          <h3>Porco Yin Yang</h3>
+          <p>Um pouco de batata, um pouco de salada</p>
+          <span>R$ 19,90</span>
+          <div class="icon">
+            <ion-icon name="checkmark-circle"></ion-icon>
+          </div>
+        </div>
+      </div>
+    </div>
+    </div>
+
+    <div class="carrosel-container">
+    <h2>Agora, sua bebida</h2>
+    <div class="carrosel">
+      <div class="container">
+        <div class="img-container" data-carrosel="bebida">
+          <img src="img2.png" alt="">
+          <h3>Coquinha gelada</h3>
+          <p>Lata 350ml</p>
+          <span>R$ 3,15</span>
+          <div class="icon">
+            <ion-icon name="checkmark-circle"></ion-icon>
+          </div>
+        </div>
+        <div class="img-container" data-carrosel="bebida">
+          <img src="img2.png" alt="">
+          <h3>Fanta gelada</h3>
+          <p>Lata 350ml</p>
+          <span>R$ 3,15</span>
+          <div class="icon">
+            <ion-icon name="checkmark-circle"></ion-icon>
+          </div>
+        </div>
+        <div class="img-container" data-carrosel="bebida">
+          <img src="img2.png" alt="">
+          <h3>Guarana gelada</h3>
+          <p>Lata 350ml</p>
+          <span>R$ 3,15</span>
+          <div class="icon">
+            <ion-icon name="checkmark-circle"></ion-icon>
+          </div>
+        </div>
+        <div class="img-container" data-carrosel="bebida">
+          <img src="img2.png" alt="">
+          <h3>Agua gelada</h3>
+          <p>Lata 350ml</p>
+          <span>R$ 2,00</span>
+          <div class="icon">
+            <ion-icon name="checkmark-circle"></ion-icon>
+          </div>
+        </div>
+      </div>
+
+    </div>
+    </div>
+
+    <div class="carrosel-container">
+    <h2>Por fim, sua sobremesa</h2>
+    <div class="carrosel">
+      <div class="container">
+        <div class="img-container" data-carrosel="sobremesa">
+          <img src="img3.png" alt="">
+          <h3>Pudim</h3>
+          <p>Apenas pudim</p>
+          <span>R$ 6,00</span>
+          <div class="icon">
+            <ion-icon name="checkmark-circle"></ion-icon>
+          </div>
+        </div>
+        <div class="img-container" data-carrosel="sobremesa">
+          <img src="img3.png" alt="">
+          <h3>Torta</h3>
+          <p>Apenas pudim torta</p>
+          <span>R$ 6,00</span>
+          <div class="icon">
+            <ion-icon name="checkmark-circle"></ion-icon>
+          </div>
+        </div>
+        <div class="img-container" data-carrosel="sobremesa">
+          <img src="img3.png" alt="">
+          <h3>Bolo</h3>
+          <p>Apenas bolo</p>
+          <span>R$ 5,00</span>
+          <div class="icon">
+            <ion-icon name="checkmark-circle"></ion-icon>
+          </div>
+        </div>
+        <div class="img-container" data-carrosel="sobremesa">
+          <img src="img3.png" alt="">
+          <h3>Creme</h3>
+          <p>Apenas creme</p>
+          <span>R$ 3,90</span>
+          <div class="icon">
+            <ion-icon name="checkmark-circle"></ion-icon>
+          </div>
+        </div>
+      </div>
+    </div>
+    </div>
+  </div>
+  <div class="btn">
+    <button>Selecione os 3 itens <br> para fechar o pedido</button>
+  </div>
+
+  <div id="modal" class="modal-container">
+    <!-- <div class="modal-content">
+      <h3>Confirme seu pedido</h3>
+      <div class="modal-text">
+        <span>Frango Yin Yang</span>
+        <span>14,90</span>
+      </div>
+      <div class="modal-text">
+        <span>Frango Yin Yang</span>
+        <span>14,90</span>
+      </div>
+      <div class="modal-text">
+        <span>Frango Yin Yang</span>
+        <span>14,90</span>
+      </div>
+      <div class="modal-text">
+        <h3>TOTAL</h3>
+        <span>R$ 27,70</span>
+      </div>
+      <div class="btn btn-modal">
+        <button id="finishing">Tudo certo, pode pedir!</button>
+      </div>
+      <a class="close" href="/"><h3>Cancelar</h3></a> -->
+  </div>
+  </div>
+
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+  <script src="script.js"></script>
+</body>
+
+</html>
