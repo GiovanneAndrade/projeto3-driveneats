@@ -29,6 +29,7 @@ h1 {
 .principal{
   background-color: #EEEEEE;
   padding-top: 7rem;
+  padding-bottom: 7rem;
 }
 
 h2 {
@@ -114,10 +115,14 @@ span {
 }
 
 .btn {
+  max-width: 400px;
   display: flex;
   justify-content: center;
   background: #ffffff;
   padding: 15px;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
 }
 
 .btn button {
